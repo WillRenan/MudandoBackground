@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700;800&display=swap");
+/*Color Theme Swatches in Hex 
+.Jujubas--1-hex { color: #5A378C; }/*Roxo
+.Jujubas--2-hex { color: #65A603; }/*Verde
+.Jujubas--3-hex { color: #F2B705; }/*Amarelo
+.Jujubas--4-hex { color: #d37904; }/*Laranja
+.Jujubas--5-hex { color: #D92B04; }/*Vermelho
+ */
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ee7732;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15vw;
+  font-weight: 800;
+  white-space: nowrap;
+  user-select: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.selectCor {
+  position: relative;
+  padding: 5px;
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05); /*efeito de transparencia*/
+  backdrop-filter: blur(15px); /*efeito de desfoque*/
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4);
+  font-size: 24px;
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
