@@ -58,3 +58,6 @@ section {
   text-align: center;
   color: rgb(68, 68, 68);
 }
+.bg:hover {
+  letter-spacing: 7px;
+}
